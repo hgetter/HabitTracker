@@ -11,6 +11,7 @@ class Habit: Identifiable, ObservableObject{
     var title : String
     var completedList: [Date]
     
+    
     // Notification Vars
     var notifyMe: Bool = false
     var notificationTime: Date
