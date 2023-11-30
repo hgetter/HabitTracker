@@ -11,8 +11,19 @@ class Habit: Identifiable, ObservableObject{
     var title : String
     var completedList: [Date]
     
-    init(title: String, completedList: [Date]) {
+    // Notification Vars
+    var notifyMe: Bool = false
+    var notificationTime: Date
+    
+    
+    init(title: String, completedList: [Date], notifyMe: Bool, notificationTime: Date) {
         self.title = title
         self.completedList = completedList
+        self.notifyMe = notifyMe
+        self.notificationTime = notificationTime
     }
+}
+
+extension Habit {
+    static let nilHabit: Habit = Habit(title: "", completedList: [], notifyMe: false, notificationTime : Date.now)
 }

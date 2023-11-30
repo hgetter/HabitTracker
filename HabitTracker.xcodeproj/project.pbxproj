@@ -16,6 +16,8 @@
 		A50BA9FF2B18224B0036E2C4 /* HabitTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BA9FE2B18224B0036E2C4 /* HabitTrackerUITestsLaunchTests.swift */; };
 		A50BAA0C2B1823220036E2C4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BAA0B2B1823220036E2C4 /* UserModel.swift */; };
 		A50BAA0E2B1824500036E2C4 /* HabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BAA0D2B18244F0036E2C4 /* HabitModel.swift */; };
+		A50BAA162B18254B0036E2C4 /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50BAA152B18254B0036E2C4 /* NewHabitView.swift */; };
+		A53F0A1B2B18321C00262CB8 /* DesignConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F0A1A2B18321C00262CB8 /* DesignConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		A50BA9FE2B18224B0036E2C4 /* HabitTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A50BAA0B2B1823220036E2C4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		A50BAA0D2B18244F0036E2C4 /* HabitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitModel.swift; sourceTree = "<group>"; };
+		A50BAA152B18254B0036E2C4 /* NewHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitView.swift; sourceTree = "<group>"; };
+		A53F0A1A2B18321C00262CB8 /* DesignConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				A50BA9E12B1822490036E2C4 /* HabitTrackerApp.swift */,
+				A50BAA152B18254B0036E2C4 /* NewHabitView.swift */,
 				A50BAA0B2B1823220036E2C4 /* UserModel.swift */,
+				A53F0A1A2B18321C00262CB8 /* DesignConstants.swift */,
 				A50BAA0D2B18244F0036E2C4 /* HabitModel.swift */,
 				A50BA9E32B1822490036E2C4 /* ContentView.swift */,
 				A50BA9E52B18224B0036E2C4 /* Assets.xcassets */,
@@ -266,7 +272,9 @@
 				A50BAA0E2B1824500036E2C4 /* HabitModel.swift in Sources */,
 				A50BA9E42B1822490036E2C4 /* ContentView.swift in Sources */,
 				A50BAA0C2B1823220036E2C4 /* UserModel.swift in Sources */,
+				A53F0A1B2B18321C00262CB8 /* DesignConstants.swift in Sources */,
 				A50BA9E22B1822490036E2C4 /* HabitTrackerApp.swift in Sources */,
+				A50BAA162B18254B0036E2C4 /* NewHabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
