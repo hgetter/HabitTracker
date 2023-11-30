@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HabitView: View {
+struct NewHabitView: View {
     @StateObject var thisHabit: Habit
     @FocusState private var titleFieldIsFocused: Bool
     
@@ -65,8 +65,8 @@ struct HabitView: View {
 }
 
 
-struct HabitView_Previews: PreviewProvider {
+struct NewHabitView_Previews: PreviewProvider {
     static var previews: some View {
-        HabitView(thisHabit: Habit.nilHabit)
+        NewHabitView(thisHabit: Habit.nilHabit)
     }
 }
